@@ -1,0 +1,31 @@
+.container{
+    min-width: 1200px;
+   
+}
+.airplane__container{
+    background-image: url(../images/p-47d-thunderbolt-republic-p-47d-thunderbolt-thunderbolt-p-6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 1000px;
+    position: relative;
+}
+.propeller-ept{
+    position: absolute;
+    width: 415px;
+    height: 30px;
+    background-color: white;
+    top: 464px;
+    left: -9px;
+    display: flex;
+    justify-content: space-between;
+}
+.propeller-ept:hover{
+    transform: rotate(1000000000000000deg);
+    transition: 10000ms;
+}
+.color-square{
+    width: 25px;
+    height: 30px;
+    background-color: black;
+}
